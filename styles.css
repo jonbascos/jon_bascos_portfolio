@@ -1,0 +1,180 @@
+/*
+    Colors:
+        #04BFBF
+        #03A696
+        #04A688
+        #F2F2F2
+        #0D0D0D
+
+    Fonts:
+        font-family: 'Rubik', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+
+    Direct Children:
+        header
+        hero-container
+        about-container
+        blog-container
+        projects-container
+        footer
+
+*/
+
+.container {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+        "header"
+        "hero"
+        "about"
+        "blog"
+        "projects"
+        "footer";
+
+}
+
+html, body {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0; */
+    /* margin: auto;*/
+    box-sizing: border-box;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/***** Grid Areas *****/
+
+header, nav {
+    background-color:#F2F2F2;
+}
+
+header {
+    grid-area: header;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-container,
+.about-container,
+.blog-container,
+.projects-container,
+footer {
+    padding: 10px;
+}
+
+.hero-container {
+    grid-area: hero;
+    background-color: #04BFBF;
+    font-size: 1.5em;
+}
+
+.about-container {
+    grid-area: about;
+    background-color: #03A696;
+}
+
+.blog-container {
+    grid-area: blog;
+    background-color: #04BFBF;
+}
+
+.projects-container {
+    grid-area: projects;
+    background-color: #0D0D0D
+}
+
+footer {
+    grid-area: footer;
+}
+
+/*
+    Individual Styling
+*/
+
+.projects {
+    width: 100px;
+    height: 100px;
+}
+
+/***** Header/Navigation *****/
+.logo {
+    width: 350px;
+    height: 75px;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+ul li {
+    list-style: none;
+}
+
+
+ul li a {
+    text-decoration: none;
+    /* font-size: 16px; */
+}
+
+.nav {
+    flex-wrap: wrap;
+    
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;;
+    padding-bottom: 10px;
+}
+
+.nav-labels {
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.fas, .fab {
+    color: #0D0D0D;
+    padding: 5px;
+}
+
+.button {
+    border-radius: 20px;
+}
+
+.button:hover {
+    background-color:gray;
+}
+
+/***** Hero *****/
+
+.fa-smile {
+    color: brown;
+}
+
+.introduction {
+    text-align: center;
+    font-size: 2em;
+}
+
+.chat {
+    color: yellow;
+}
+.myName {
+    color: brown;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.my-picture {
+    display: block;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    padding: 10px;
+}
+
