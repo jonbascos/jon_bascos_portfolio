@@ -55,7 +55,9 @@ a {
 /***** Grid Areas *****/
 
 header, nav {
-    background-color: #f8f8f8;
+    /* background-color: #f8f8f8; */
+    /* background-color: teal; */
+    background-color:  #45969b;
 }
 
 header {
