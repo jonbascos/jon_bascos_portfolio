@@ -30,7 +30,7 @@
     background-color: black;
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto 1fr;
     grid-template-areas:
         "header"
         "hero"
@@ -55,8 +55,6 @@ a {
 /***** Grid Areas *****/
 
 header, nav {
-    /* background-color: #f8f8f8; */
-    /* background-color: teal; */
     background-color:  #45969b;
 }
 
