@@ -208,7 +208,11 @@ section {
 
 .project-description {
     margin: 10px;
-    
+}
+
+.requirements {
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 .projects {
