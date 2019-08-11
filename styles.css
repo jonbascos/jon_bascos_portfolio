@@ -207,13 +207,13 @@ section {
 }
 
 .project-description {
-    background-color: rgba(128,128,128,0.7);
     margin: 10px;
+    
 }
 
 .projects {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 10px;
     display: block;
     margin: auto;
@@ -245,4 +245,10 @@ footer {
     align-items: center;
     text-align: center;
     height: 50px;
+}
+
+/***** Media Queries *****/
+
+@media only screen and (min-width: 640px) {
+
 }
