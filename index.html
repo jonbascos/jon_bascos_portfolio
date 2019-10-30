@@ -1,155 +1,599 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Rubik&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/46755477df.js"></script>
-    <title>Jon Bascos - Web Developer</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Jon Bascos - Web Developer from the greater Portland Oregon Area.  Experience with Python, Django, Django REST, VueJS, HTML, CSS, and Javascript.  Graduate of the PDX Code Guild in Portland Oregon and ready for my career in Web Development.">
+  <meta name="author" content="Jon Bascos">
+
+  <title>Jon Bascos - Web Developer</title>
+
+  <!-- Custom fonts for this theme -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <!-- Theme CSS -->
+  <link href="css/freelancer.min.css" rel="stylesheet">
+
+  <!-- Personal Custom CSS -->
+  <link href="css/personal.css" rel="stylesheet">
+
 </head>
-<body>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
     <div class="container">
-        <header>
-            <img src="img/transparent.png" alt="Signature Logo" class="logo">
-            <nav>
-                <ul class='nav-links'>
-                    
-                    <li><button class="button"><a href="#projects-section"><span class="nav-labels">Projects</span><i class="fas fa-project-diagram"></i></a></button></li>
-                    <li><button class="button"><a href="#blog-section"><span class="nav-labels">Blog</span><i class="fas fa-blog"></i></a></button></li>
-                    <li><button class="button"><a href="#"><span class="nav-labels">Resume</span><i class="fas fa-file"></i></a></button></li>
-                    <li><button class="button"><a href="https://www.github.com/jonbascos"><span class="nav-labels">github</span><i class="fab fa-github"></i></a></button></li>
-                    <li><button class="button"><a href="https://www.linkedin.com/in/jonbascos"><span class="nav-labels">linkedin</span><i class="fab fa-linkedin"></i></a></button></li>
-                    
-                </ul>
-            </nav>
-        </header>
-        <div class="hero-container">
-            <div class="hero">
-                <h1><i class="fas fa-smile"></i>Hi!</h1>
-                <p>
-                    <div class="introduction">
-                        My name is <span class="myName">Jon!</span>
-                    </div> 
-                </p>
-                <p>
-                    I'm a Web Developer with an interest in all things Web/Software development.  I can't forget about Crypto either!  <span class="chat">Let's Chat!</span>
-                </p>
-                    <img src="img/selfie-in-hawaii.jpg" alt="Selfie in Hawaii" class="my-picture">
-            </div>
-        </div>
-
-        <div class="about-container">
-            <div class="headers box">
-                <h2>About Me</h2>
-            </div>
-            <div class="about-contents">
-            <p>
-                I am a Web Developer born and raised in the Silicon Valley and moved to the Portland area in 2005.  I enjoy learning about new tech especially when it comes to consumer electronics (I love my Apple products) and also mining crypto.  I was first introduced to Web Development in high school.  We learned about HTML and created web pages in class.
-            </p>
-            <p>
-                Currently, I am a Fullstack Web Developer student at the PDX Code Guild in Portland, Oregon.  We started off the Bootcamp learning Python and then moving along to HTML and CSS.  To round things off, we learned about Javascript and Django for the backend.  
-            </p>
-            <p>
-                I am looking forward to building great things and contributing to the industry as a whole.  There will always be something to learn, and that's what I love so much about this field!
-            </p>
-        </div>
-        </div>
-
-        <div class="blog-container" id="blog-section">
-            <div class="headers">
-                <h2>Latest Blog Posts</h2>
-            </div>
-            <p>
-                <ul class="blog-post=contents">
-                    <div class="blog-posts">
-                        <li><a href="#">Why I Chose a Bootcamp Instead of Self-taught</a></li>
-                        <li><a href="#">What's Easier: Python or Javascript</a></li>
-                    </div>
-                </ul>
-            </p>
-        </div>
-
-        <div class="projects-container" id="projects-section">
-            <div class="headers">
-                <h2>Projects</h2>
-            </div>
-            <p>
-                <div class="projects-content">
-                <section>
-                    <img src="img/projects/weather-app.jpg" alt="weather_please.py" class='projects'>
-                    <div class="project-description">
-                            <div class="project-title">
-                                    <h2>
-                                        Weather App
-                                    </h2>
-                                </div>
-                        Weather Reporting App written in Python3 utilizing a couple of API's to pull the current weather and to find the Latitude and Longitude of a Zip Code.  Utilized Argparse for a one-line CLI command.
-                        <p>
-                            <span class="requirements">Required:</span>
-                            pip3 install python-forecastio
-                        </p>
-                    </div>
-                    <div class="previews">
-                        <div class="github">
-                            <a href="https://github.com/jonbascos/jonbascos.github.io/blob/master/weather_please.py">View on Github</a> 
-                        </div>
-                    </div>
-                </section>
-            </p>
-            <p>
-                <section>
-                        <img src="img/projects/simple-calculator.jpg" alt="Simple Calculator program" class='projects'>
-                        <div class="project-description">
-                            <div class="project-title">
-                                <h2>
-                                    Simple Calculator
-                                </h2>
-                            </div>
-                            Just as the name says, it's a simple calculator that is ran on the Command Line.  Written in Python 3, the calculator will add, subtract, multiply or divide 2 numbers.
-                        </div>
-                        <div class="previews">
-                            <div class="github">
-                                <a href="https://github.com/jonbascos/jonbascos.github.io/blob/master/simple_calculator.py">View on Github</a> 
-                            </div>
-                        </div>
-                    </section>
-            </p>
-            <p>
-                <section>
-                        <img src="img/projects/little_duckie_daycare_mobile.png" alt="Placeholder picture" class='projects'>
-                        <div class="project-description">
-                                <div class="project-title">
-                                        <h2>
-                                            Daycare Web Site
-                                        </h2>
-                                    </div>
-                            Simple web site created for a Daycare Facility.  Web site was created using WordPress and Divi.
-                        </div>
-                        <div class="previews">
-                            <div class="website">
-                                    <a href="https://www.littleduckiedaycare.com">View Live</a> 
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </p>
-        </div>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Jon Bascos</a>
+      <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
-        <footer>
-            <div class="copyright">
-                Copyright &copy; 2019 <a href="mailto:jon@jonbascos.com">Jon Bascos</a>
-            </div>
-            <div class="social-media">
-                    <a href="https://www.facebook.com/techmoby43"><i class="fab fa-facebook-square"></i></a>
-                    <a href="https://www.twitter.com/medictodev"><i class="fab fa-twitter-square"></i></a>
-                    <a href="https://www.instagram.com/medictodev"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.linkedin/in/jonbascos"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://www.github.com/jonbascos"><i class="fab fa-github"></i></a>
+  </nav>
 
+  <!-- Masthead -->
+  <header class="masthead bg-primary text-white text-center">
+    <div class="container d-flex align-items-center flex-column">
+
+      <!-- Masthead Avatar Image -->
+      <img class="masthead-avatar mb-5" src="img/headshot.jpg" alt="Jon Bascos - headshot">
+
+      <!-- Masthead Heading -->
+      <h1 class="masthead-heading text-uppercase mb-0">Hi! <br> My name is Jon!</h1>
+
+      <!-- Icon Divider -->
+      <div class="divider-custom divider-light">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-code"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <!-- Masthead Subheading -->
+      <p class="masthead-subheading font-weight-light mb-0">Full-Stack Web Developer</p>
+
+    </div>
+  </header>
+
+  <!-- Portfolio Section -->
+  <section class="page-section portfolio" id="portfolio">
+    <div class="container">
+
+      <!-- Portfolio Section Heading -->
+      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+
+      <!-- Icon Divider -->
+      <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-code"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <!-- Portfolio Grid Items -->
+      <div class="row">
+
+        <!-- Portfolio Item 1 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-50">
+              <div class="portfolio-item-caption-content text-center text-white">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
             </div>
-        </footer>
+            <img class="img-fluid" src="img/portfolio/blackjack-coach.jpg" alt="Blackjack Coach screenshot">
+          </div>
+        </div>
+
+        <!-- Portfolio Item 2 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/anagram-palindrome.jpg" alt="Anagram and Palindrome checker screenshot">
+          </div>
+        </div>
+
+        <!-- Portfolio Item 3 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/nomads-pal.png" alt="Nomads Pal screenshot">
+          </div>
+        </div>
+
+      </div>
+      <!-- /.row -->
+
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="page-section bg-primary text-white mb-0" id="about">
+    <div class="container">
+
+      <!-- About Section Heading -->
+      <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+
+      <!-- Icon Divider -->
+      <div class="divider-custom divider-light">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-code"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <!-- About Section Content -->
+      <div class="row">
+        <div class="col-lg-4 ml-auto">
+          <p class="lead">I am a Web Developer born and raised in the Silicon Valley and moved to the Portland area in 2005. I enjoy learning about new tech especially when it comes to consumer electronics (I love my Apple products) and also mining crypto. I was first introduced to Web Development in high school. We learned about HTML and created web pages in class.</p>
+        </div>
+        <div class="col-lg-4 mr-auto">
+          <p class="lead">I'm a graduate of the PDX Code Guild 14-week Bootcamp.  During the Bootcamp, we focused on being full stack Python-based web develoeprs.  My current (and ever evolving knowledge) includes Python, Django, Django REST Framework, VueJS, HTML, CSS, and Javascript.  I'm currently learning ReactJS to add to my toolbelt.</p>
+        </div>
+      </div>
+
+      <!-- About Section Languages -->
+      <div class="text-center mt-4">
+        <h1>Skills</h1>
+        <div class="cards">
+          <div class="card">
+            <h2>Languages</h2>
+            <p>Javascript</p>
+            <p>Python</p>
+          </div>
+
+          <div class="card">
+            <h2>Front End</h2>
+            <div>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>Javascript</p>
+            <p>VueJS</p>
+            <p>Responsive Design</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <h2>Back End</h2>
+            <p>Django</p>
+            <p>Django REST Framework</p>
+          </div>
+
+          <div class="card">
+            <h2>Tools</h2>
+            <p>Github</p>
+            <p>VS Code</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- About Section Button -->
+      <div class="text-center mt-4">
+        <a class="btn btn-xl btn-outline-light" href="https://www.linkedin.com/in/jonbascos">
+          <i class="fab fa-linkedin"></i>
+          LinkedIn
+        </a>
+        <a class="btn btn-xl btn-outline-light" href="https://www.github.com/jonbascos">
+          <i class="fab fa-github-square"></i>
+          Github
+        </a>
+        <a class="btn btn-xl btn-outline-light" href="resume.pdf">
+          <i class="fas fa-file"></i>
+          Resume
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="page-section" id="contact">
+    <div class="container">
+
+      <!-- Contact Section Heading -->
+      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Let's Connect</h2>
+
+      <!-- Icon Divider -->
+      <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-code"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <!-- Contact Section Form -->
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+          <form name="sentMessage" id="contactForm" novalidate="novalidate">
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                <label>Name</label>
+                <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name.">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                <label>Email Address</label>
+                <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address.">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                <label>Phone Number</label>
+                <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number.">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                <label>Message</label>
+                <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <br>
+            <div id="success"></div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer text-center">
+    <div class="container">
+      <div class="row">
+
+        <!-- Footer Location -->
+        <div class="col-lg-4 mb-5 mb-lg-0">
+          <h4 class="text-uppercase mb-4">Location</h4>
+          <p class="lead mb-0">Greater Portland Oregon Metro Area</p>
+        </div>
+
+        <!-- Footer Social Icons -->
+        <div class="col-lg-4 mb-5 mb-lg-0">
+          <h4 class="text-uppercase mb-4">Around the Web</h4>
+          <a class="btn btn-outline-light btn-social mx-1" href="https://www.twitter.com/medictodev">
+            <i class="fab fa-fw fa-twitter"></i>
+          </a>
+          <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/jonbascos">
+            <i class="fab fa-fw fa-linkedin-in"></i>
+          </a>
+        </div>
+
+        <!-- Footer About Text -->
+        <div class="col-lg-4">
+          <h4 class="text-uppercase mb-4">Available for hire!</h4>
+          <p class="lead mb-0">Full-Stack Developer, Frontend Developer, Full-Time, Part-Time</p>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- Copyright Section -->
+  <section class="copyright py-4 text-center text-white">
+    <div class="container">
+      <small>Copyright &copy; by Jon Bascos 2019</small>
+    </div>
+  </section>
+
+  <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+  <div class="scroll-to-top d-lg-none position-fixed ">
+    <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+      <i class="fa fa-chevron-up"></i>
+    </a>
+  </div>
+
+  <!-- Portfolio Modals -->
+
+  <!-- Portfolio Modal 1 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Blackjack Coach</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-code"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image -->
+                <img class="img-fluid rounded mb-5" src="img/portfolio/blackjack-coach.jpg" alt="Blackjack Coach screenshot">
+                <!-- Portfolio Modal - Text -->
+                <p class="mb-5">While playing Blackjack, have you ever wondered what you should do with the cards you have in your hands? This app will help by suggesting if you should Stay or Hit. The app was created using HTML5, CSS3 and Javascript.</p>
+                <p>
+                <a href="https://www.jonbascos.com/projects/blackjackcoach" target="_blank"><button class="btn btn-primary">
+                  View Live
+                </button></a> <a href="https://github.com/jonbascos/projects/tree/master/javascript/Lab%202b" target="_blank"><button class="btn btn-primary">
+                  View on Github
+                </button></a>
+                </p>
+                <p>
+                
+                </p>
+                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>
+                  Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Modal 2 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Anagram/Palindrome Checker</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-code"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image -->
+                <img class="img-fluid rounded mb-5" src="img/portfolio/anagram-palindrome.jpg" alt="Anagram and Palindrome Checker screenshot">
+                <!-- Portfolio Modal - Text -->
+                <p class="mb-5">This app checks if the given inputs are anagrams or palindromes. I think the hardest part of this project was getting the JS straight in my head. The app was created using HTML5, CSS3 and Javascript.</p>
+                <p>
+                <a href="https://www.jonbascos.com/projects/anagram-palindrome" target='_blank'><button class="btn btn-primary">
+                  View Live
+                </button></a> <a href="https://github.com/jonbascos/projects/tree/master/javascript/Lab%203b" target="_blank"><button class="btn btn-primary">
+                  View on Github
+                </button></a>
+                </p>
+                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>
+                  Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Modal 3 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Nomad's Pal</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-code"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image -->
+                <img class="img-fluid rounded mb-5" src="img/portfolio/nomads-pal.png" alt="Nomad's Pal Screenshot">
+                <!-- Portfolio Modal - Text -->
+                <p class="mb-5">Nomad's Pal is a community supported app that helps Digital Nomad's and remote workers locate a cafe or coworking space in the area they are interested in working.  Developoment is still in progress but is currently able to add and search for locations in the Portland Oregon area.</p>
+                <p>
+                <a href="https://github.com/jonbascos/nomads_pal" target="_blank"><button class="btn btn-primary">
+                  View on Github
+                </button></a>
+                </p>
+                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>
+                  Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Modal 4 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Controller</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image -->
+                <img class="img-fluid rounded mb-5" src="img/portfolio/game.png" alt="">
+                <!-- Portfolio Modal - Text -->
+                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>
+                  Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Modal 5 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="portfolioModal5Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Locked Safe</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image -->
+                <img class="img-fluid rounded mb-5" src="img/portfolio/safe.png" alt="">
+                <!-- Portfolio Modal - Text -->
+                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>
+                  Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Modal 6 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-labelledby="portfolioModal6Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Submarine</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image -->
+                <img class="img-fluid rounded mb-5" src="img/portfolio/submarine.png" alt="">
+                <!-- Portfolio Modal - Text -->
+                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>
+                  Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Contact Form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/freelancer.min.js"></script>
+
 </body>
+
 </html>

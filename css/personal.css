@@ -1,0 +1,17 @@
+.languages {
+    color: blue;
+}
+
+.card {
+    background-color: #FFF;
+    color: #2B3E50;
+    width: 15rem;
+    margin: 10px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
