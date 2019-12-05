@@ -15,3 +15,7 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+
+.weatherapp {
+    width: 170px;
+}
